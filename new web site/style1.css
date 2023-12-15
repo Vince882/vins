@@ -1,0 +1,39 @@
+.navbar{
+    border: 2px solid black;
+    width: auto;
+    height: 100px;
+}
+.sesion1{
+    height: 500px;
+    width: auto;
+    border: 2px solid black;
+}
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+}
+.sesion2{
+    height: 600px ;
+    width: auto;
+    border:2px solid black;
+}
+.navbutton{
+    display: inline-flex;
+    margin-left: 550px;
+   
+}
+h3{
+    text-align: center ;
+}
+button{
+    background-color: transparent;
+    border: 1px transparent;
+}
+.searchbox{
+    background-color: rgb(244, 229, 209);
+    border: 1px transparent;
+}
+button:hover{
+    border-bottom: 2px solid black;
+}
