@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(architect.jpg.);
+    background-repeat: no-repeat;
+   }
+.abc{
+   list-style-type: none;
+   margin: 0;
+   padding: 15px;
+   overflow: hidden; 
+   background-color: white; 
+   width: 99% ;
+ }
+ 
+ .ab{
+   float: right;
+   margin-left: 30px;
+
+   
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 50px;
+   text-decoration: none;  
+ }
+ h1{ 
+   text-align: center;
+   padding-top: 330px;
+   margin: 5px;
+   color: white;
+ }
+ b{
+   background-color: black;
+   height: 23px;
+   width: 29px;
+   padding: 5px;
+   opacity:0.7;
+}
+
+.gg{
+  margin-left: 1000px;
+}
+.text{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: -400px;
+}
+.xy{
+  position: fixed;
+}
+.bodar{
+  background-color: rgba(46, 43, 43, 0.912);
+  padding: 20px,5px,25px,5px;
+  color: rgba(255, 255, 255, 0.614);
+  padding: 10px;
+}
+
+.a{
+font-size: 30px;
+padding-top: 350px;
+margin: 40px 10px 20px 30px;
+margin-top: 70px; 
+}
+img {
+  width: 349.75px;
+  
+}
+.bb-1{
+  position: absolute;
+  margin:left;
+  background-color: black;
+  color: white;
+  padding: 10px; 
+  font-size: 20px;
+  float: left;
+}
+
+.ss{
+  width: 25%;
+  float:left;
+}
+
+.g{
+width: 100%;
+}
+
+.h{
+  margin-bottom:0;
+  background-color: black ;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+  padding: 33px;
+ height: 20px;
+}

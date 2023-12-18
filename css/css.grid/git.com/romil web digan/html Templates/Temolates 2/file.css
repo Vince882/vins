@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 350%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .fa-magnifying-glass{
+   color:white;
+    margin-left: 67%;
+    margin-top: 1%;
+  
+  }
+  .fa-magnifying-glass:hover{
+    background-color: rgb(255, 0, 0);
+    padding: 1px;
+    width: 20px;
+    height: 20px;
+  }
+
+
+  
+.gg{
+    width: 100%; 
+}
+
+.d{
+    margin-top: -8%;
+    color: white;
+    font-size: 23px;
+}
+
+.hh{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.yy{
+    text-align: center;
+   
+}
+
+.qq{
+    margin-left: 30%;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+}
+
+.kk{
+  background-color: white;
+  height: 150px;
+  width: 54%;
+  margin-left: 25%;
+  
+}
+
+.po{
+  color: rgb(131, 126, 126);
+ margin-left: 26%;
+ margin-top: -5.5%;
+ font-size: 17px;
+}
+
+.pp{
+  color: rgb(131, 126, 126);
+  margin-left: 26%;
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+
+.ll{
+  background-color: red;
+  width: 68px;
+  color: rgb(255, 255, 255);
+  margin-left: 32%;
+  margin-top: -8%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.lo{
+  background-color: red;
+  width: 68px;
+  color: rgb(255, 255, 255);
+  margin-left: 32%;
+  margin-top: 29px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.kko{
+  width: 250px;
+  height:250px;
+  margin-left: 25%;
+  margin-top: 7%;
+}
+
+.kko:hover{
+  opacity: 0.5;
+}
+
+.kku {
+ width: 250px;
+ height: 250px;
+ margin-left: 2%;
+}
+
+.kku:hover{
+  opacity: 0.8;
+}
+
+.ha{
+  background-color:white;
+  width: 250px;
+  height: 245px;
+  margin-left: 25%;
+  margin-top: -1%;
+}
+
+.mm{
+  color: rgb(0, 0, 0);
+  margin-left: 26%;
+  margin-top: -15%;
+}
+
+.m{
+  background-color:rgb(255, 255, 255);
+  width: 250px;
+  height: 250px;
+  margin-left: 43.7%;
+  margin-top: -3%;
+}
+
+.as{
+  color: rgb(0, 0, 0);
+  margin-left: 45%;
+  margin-top: -15.2%;
+ 
+}
+
+.ml{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 250px;
+  margin-left: 62.4%;
+  margin-top: -2.6%;
+}
+
+.mmm{
+  color: rgb(0, 0, 0);
+  margin-left: 63.5%;
+  margin-top: -15.2%;
+}
+
+.pl{
+  color: rgb(0, 0, 0);
+  margin-left:26%;
+   margin-top: 3%;
+   font-size: 18px;
+}
+
+.pll{
+
+  color: rgb(0, 0, 0);
+  margin-left:45%;
+   margin-top: -3%;
+   font-size: 18px;
+}
+
+.plll{
+  
+  color: rgb(0, 0, 0);
+  margin-left:63.5%;
+   margin-top: -3%;
+   font-size: 18px;
+}
+
+.bu{
+  height: 33px;
+  width: 7%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 25.9%;
+  margin-top: 2%;
+  
+}
+.bu:hover{
+  background-color: rgb(208, 200, 200);
+  color: black;
+}
+
+.buu{
+  height: 33px;
+  width: 7%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 11.8%;
+  margin-top: 2%;
+}
+
+.buu:hover{
+  background-color: rgb(208, 200, 200);
+  color: black;
+}
+
+.h3{
+  text-align: center;
+  margin-top: 10.8%;
+}
+
+.h4{
+  color: darkgray;
+  text-align: center;
+}
+
+.ax{
+ margin-left: 52%;
+padding: 8px;
+margin-top: 10%;
+width: 10%;
+}
+
+.hhp{
+  padding: 8px;
+  margin-left: 52%;
+  width: 22.5%;
+  margin-top: 10px;
+}
+
+.qw{
+  margin-top: -65px;
+}
+
+.dg{
+  height: 39px;
+  width: 5%;
+  margin-left: 71%;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.dg:hover{
+  background-color: rgb(169, 165, 165);
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.g{
+  width: 100%;
+  margin-top: 130px;
+  }
+
+  .class{
+    margin-top: 80px;
+    color: rgb(99, 95, 95);
+   text-align: center;
+   font-size: 25px;
+  }
+.by{
+  color: rgb(131, 128, 128);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.opp:hover {
+ opacity: 0.5;
+}

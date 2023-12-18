@@ -1,0 +1,172 @@
+// Bootstrap media queries
+@screen-xs: 480px;
+@screen-xs-min: @screen-xs;
+@screen-phone: @screen-xs-min;
+@screen-sm: 768px;
+@screen-sm-min: @screen-sm;
+@screen-tablet: @screen-sm-min;
+@screen-md: 992px;
+@screen-md-min: @screen-md;
+@screen-desktop: @screen-md-min;
+@screen-lg: 1200px;
+@screen-lg-min: @screen-lg;
+@screen-lg-desktop: @screen-lg-min;
+@screen-xs-max: (@screen-sm-min - 1);
+@screen-sm-max: (@screen-md-min - 1);
+@screen-md-max: (@screen-lg-min - 1);
+// WebApp variables
+@navbar-color: #ffffff;
+@navbar-bg-color: #311b92;
+@transition-duration: .25s;
+@transition-duration-slow: .4s;
+@header-space: 70px;
+
+.collapse,
+.collapsing {
+    display: none;
+    &.in {
+        display: block;
+    }
+}
+
+html {
+    color: #333333;
+    background: #eeeeee;
+    &.show-nav {
+        position: relative;
+        overflow: hidden;
+        .layout-header {
+            z-index: 9901 !important;
+            .navbar-header {
+                opacity: 0;
+            }
+            &::before {
+                background-color: transparent;
+            }
+        }
+        &::before {
+            content: '';
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: 9900;
+        }
+        .site-wrapper {
+            right: 50%;
+        }
+    }
+}
+
+body {
+    padding-top: @header-space;
+}
+
+.site-wrapper {
+    position: relative;
+    right: 0;
+    transition: @transition-duration;
+}
+
+.layout-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: @transition-duration;
+    &::before {
+        display: block;
+        content: '';
+        background-color: @navbar-bg-color;
+        position: absolute;
+        max-height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        transition: @transition-duration;
+    }
+    a {
+        color: @navbar-color;
+    }
+    .navbar-header {
+        position: relative;
+        transition: @transition-duration;
+    }
+    .navbar-toggle {
+        margin: 5px 10px;
+        border: 0;
+    }
+    .icon-bar {
+        background-color: #ffffff;
+        width: 20px;
+        height: 3px;
+    }
+    .mywebapp-nav--header {
+        border: 0;
+        transition: @transition-duration;
+        @media (min-width: @screen-sm) {
+            float: right;
+        }
+        @media (max-width: @screen-xs-max) {
+            background-color: @navbar-bg-color;
+            padding-top: @header-space - 15;
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, .5), 0 0 6px 0 rgba(0, 0, 0, .25) !important;
+            &.collapse,
+            &.collapsing {
+                display: block !important;
+                height: 100% !important;
+                position: fixed;
+                left: calc(100% + 15px);
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: 0;
+                min-width: 240px;
+            }
+            &.in {
+                left: 50%;
+            }
+        }
+        @media (max-width: @screen-xs) {
+            &.in {
+                left: 60px;
+            }
+        }
+        &.in {
+            .navbar-brand,
+            .navbar-toggle {
+                opacity: 1;
+            }
+        }
+        .navbar-brand,
+        .navbar-toggle {
+            position: absolute;
+            top: 0;
+            transition: @transition-duration;
+            opacity: 0;
+        }
+        .navbar-brand {
+            left: 0;
+        }
+        .navbar-toggle {
+            right: 0;
+        }
+        .navbar-nav {
+            margin-top: 0;
+            margin-bottom: 0;
+            a {
+                &:active,
+                &:focus,
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.08);
+                }
+            }
+        }
+    }
+}

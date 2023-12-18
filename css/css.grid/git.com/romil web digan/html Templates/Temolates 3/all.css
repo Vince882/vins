@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+    width: 100%;
+  }
+  
+  li {
+   float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color:rgb(232, 232, 244);
+  }
+
+  .hamburger{
+    width: 100%;
+  }
+
+  .style{
+    margin-top: -50px;
+    margin-left: 20px;
+    font-family: "Playfair Display";
+    color: rgb(98, 94, 94);
+  }
+
+  .tablesetting{
+    margin-left: 16%;
+    margin-top: 6%;
+    opacity: 0.75;
+  }
+
+  .catering{
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin-left: 50%;
+    margin-top: -48%;
+  }
+
+  .since{
+    margin-left: 68%;
+    margin-top: -44;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+
+  .the{
+    font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.5;
+    margin-left: 58%;
+   
+  }
+.sed{
+  display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(218, 218, 212);
+}
+
+.Excepteur{
+  color: #757575;
+  font-size: 18px;
+  display: block;
+  margin-block-start: 1em;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.5;
+  margin-left: 58%;
+  
+}
+
+.hr{
+  border: 0;
+  border-top: 1px solid rgb(188, 184, 184);
+  margin: 20px 0;
+  margin-top: 25%;
+  width: 83%;
+  margin-left: 10%;
+   
+}
+
+.images{
+  margin-left: 45%;
+  margin-top: 6%;
+  opacity: 0.75;
+}
+
+.our{
+font-family: "Playfair Display";
+letter-spacing: 5px;
+font-weight: 400;
+margin: 10px 0;
+margin-top: -48%;
+margin-left: 20%;
+font-size: 36px;
+}
+
+.bread{
+  font-family: "Playfair Display";
+letter-spacing: 5px;
+margin: 10px 0px;
+font-size: 20px;
+margin-left:9%;
+}
+
+.of{
+  font-family: "Playfair Display";
+  color: #757575;
+  margin-left: 9%;
+}
+
+.Honry{
+font-family: "Playfair Display";
+letter-spacing: 5px;
+margin: 10px 0;
+margin-top: 3.5%;
+margin-left: 9%;
+font-size: 20px;
+}
+
+.hr2{
+  border: 0;
+  border-top: 1px solid rgb(188, 184, 184);
+  margin: 20px 0;
+  margin-top: 13%;
+  width: 83%;
+  margin-left: 10%;
+}
+
+.contact{
+  font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.we{
+  font-family: "Playfair Display";
+  margin-left: 10%;
+  font-size: 14px;
+}
+
+.new{
+margin: 10px 0px;
+margin-left:10%;
+margin-top: 2%;
+font-weight: bolder;
+color: #607d8b;
+font-size: 18px;
+}
+
+input{
+  width: 75%;
+  margin-left: 10%;
+  border: none;
+  border-bottom: 1px solid rgb(116, 114, 114);
+  font-size: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+  
+}
+
+.button{
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+button:hover{
+  background-color: rgb(173, 169, 169);
+}
+
+.w3{
+  background-color: rgb(235, 232, 232) ;
+  height: 100px;
+  font-size: 15px;
+  text-align:center;
+  padding: 33px;
+ height: 20px;
+ margin-top: 5%;
+}

@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.eazytrendz{
+    width: 100%;
+    height: 900px;
+}
+
+.html{
+    text-align: center;
+    color: white;
+    margin-top: -50%;
+    font-size: 60px;
+}
+
+.free{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button{
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border: none;
+    margin-left: 44%;
+    margin-top: 5%;
+    background-color:#f06060;
+    color: rgb(234, 232, 232);
+    border-radius: 5px;
+}
+
+.person{
+color: white;
+font-size: 60px;
+margin-top: 20%;
+margin-left: 23%;
+border: 2px solid gray;
+padding: 8px;
+}
+
+.music{
+    color: white;
+font-size: 60px;
+margin-left: 10%;
+position: absolute;
+border: 2px solid gray;
+padding: 8px;
+margin-top: 308px;
+}
+
+.about{
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 50px;
+}
+
+.photo{
+    margin-left:60%;
+    margin-top: -100%;
+}
+
+.best{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.this{
+    margin-left: 25%;
+    font-size: 10px;
+    color: #8c8c8c;
+}
+
+.djs{
+    margin-left: 25%;
+}
+
+.sms{
+    color: #f06060;
+    font-size: 45px;
+    margin-top: 80px;
+   margin-left: 15%;
+   position: absolute;
+}
+
+.plane{
+    color: #f06060;
+    font-size: 45px;
+    margin-top: 250px;
+   margin-left: 15%;
+   position: absolute;
+}
+
+.com{
+    color:#f06060;
+    font-size: 45px;
+    margin-top: 450px;
+   margin-left: 15%;
+   position: absolute;
+}
+
+.square{
+    color: #f06060;
+    font-size: 45px;
+    margin-top: 660px;
+   margin-left: 15%;
+   position: absolute;
+}
+
+.button2{
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border: none;
+    margin-left: 37%;
+    margin-top: 5%;
+    background-color:#f06060;
+    color: rgb(234, 232, 232); 
+    border-radius: 5px;
+}
+
+.button2:hover{
+    background-color: red;
+   transition: 1s;
+}
+
+.button3{
+    text-align: center;
+    height: 45px;
+    width: 150px;
+   margin-left: 15px;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 8%;
+}
+
+.button3:hover{
+    background-color: rgb(59, 58, 58);
+    transition: 1s;
+    color: white;
+}
+
+.photo2{
+    width: 100%;
+    height: 400px;
+}
+
+.new{
+    margin-left: 65%;
+    margin-top: -180px;
+    color: white;
+}
+
+.on{
+    color: white;
+    margin-left: 34%;
+    margin-bottom: 10%;
+}
+
+.phone{
+    margin-left: 14%;
+    color: rgb(189, 189, 189);
+}
+
+.city{
+    margin-left: 13%;
+    color: rgb(189, 189, 189);
+}
+
+input{
+    margin-left: 4%;
+    width: 48%;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 15px;
+}
+
+.button4{
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border: none;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color:#f06060;
+    color: rgb(255, 255, 255); 
+    border-radius: 5px;
+}
+
+.button4:hover{
+    background-color: rgb(243, 57, 57);
+   transition: 1s;
+   color: rgb(232, 232, 232);
+}
+
+.map{
+    margin-left: 58%;
+    margin-top: -23%;
+}

@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.head {
+    background-color: rgb(255, 213, 0);
+    padding: 8px 0px 8px 100px;
+}
+
+
+
+.stic {
+    position: sticky;
+  
+}
+
+.justi {
+  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    float: right;
+}
+
+.right li ,a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding-top:10px ;
+}
+
+.left li {
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 8px;
+}
+
+.right a:hover {
+    color: tomato;
+}
+
+.hov {
+    background-color: tomato;
+    list-style: none;
+    line-height: 40px;
+    margin-right: 80px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.hov a:hover {
+    color: white;
+}
+
+
+
+.bg {
+    background-image: url(image\ 7.png);
+}
+
+.bg p {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.bg h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    height: 390px;
+    padding-top: 10px;
+}
+
+.sup {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+
+
+.ped span {
+    margin-left: 10px;
+}
+
+
+
+.abo {
+    width: 40%;
+}
+
+.abo h2 {
+    font-size: 50px;
+    color: white;
+    padding: 50px 0px 30px 0px;
+}
+
+.abo h3 {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.abo p {
+    font-size: 20px;
+    color: lightgray;
+    padding-bottom:30px;
+}
+
+.flax {
+    background-image: url(image\ 1.jpg);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.flax2 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+
+.resize img{
+    width: 500px;
+    margin-bottom: 55px;
+    border-radius: 20px;
+}
+
+
+.resize h2{
+    font-size: 50px;
+    margin: auto;
+    width: 263px;
+}
+
+.resize {
+    margin: 80px 0px 20px 0px;
+}
+
+.flax3 {
+    display: flex;
+    justify-content: space-between;
+    width: 74.5%;
+    margin: auto;
+}
+
+.flax3 img{
+    width: 550px;
+    border-radius: 20px;
+}
+
+
+
+.bg3 {
+    background-image: url(image\ 6.jpg);
+    color: white;
+}
+
+.bg3 h2 {
+    font-size: 45px;
+    width: 297px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+table {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.tbg {
+    background-image: url(image\ 3-2.jpg);
+    background-size: cover;
+}
+
+.tbg2 {
+    background-image: url(image\ 4-2.jpg);
+    background-size: cover;
+}
+
+
+.tbg3 {
+    background-image: url(image\ 5-2.jpg);
+    background-size: cover;
+}
+
+
+.tit h2{
+    font-size: 50px;
+    width: 332px;
+    margin: auto;
+    padding: 80px 0px 30px 0px;
+}
+
+.tflax {
+    display: flex;
+    width: 175px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 33px;
+}
+
+.dot {
+    border: 5px dotted black;
+    border-radius: 20px;
+    width: 600px;
+    padding-top:50px ;
+}
+
+.tflax3 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.tflax3 p ,li{
+    color: grey;
+    font-size: 18px;
+
+}
+
+.tflax2 {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    margin-bottom: 30px;
+}
+
+.flax2 ul ,li {
+    padding-bottom: 10px;
+}
+
+.bgc {
+    background-color: rgb(243, 249, 255);
+    height: 625px;
+}
+
+.add a{
+    margin-left: 33px;
+    padding-bottom: 40px;
+    color: orange;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.add {
+    padding-bottom: 20px;
+}
+
+.add a:hover {
+    color: tomato;
+    text-decoration: none;
+    transition-duration: 2s;
+    font-weight: 900;
+}
+
+.rou {
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 20px 15px;
+    margin-top: -30px;
+}
+
+.flax4 {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+}
+
+
+
+.talk {
+    font-size: 30px;
+    width: 27%;
+    margin: auto;
+}
+
+.talk h2 {
+    margin: 80px 0px 20px 0px;
+}
+
+.up {
+    background-color: rgb(231, 243, 254);
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin: auto;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.dow {
+    color: rgb(255, 208, 0);
+    background-color: white;
+    width: 185px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.cbg {
+    background-color: white;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    width: 950px;
+    margin: auto;
+}
+
+.flax5 {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.flax5 input {
+    width: 400px;
+    padding: 10px 8px;
+}
+
+.ccbg {
+    width: 825px;
+    margin: auto;
+}
+
+.ccbg input{
+    width: 825px;
+    padding: 10px 8px;
+    margin-top: 25px;
+}
+
+.ccbg textarea{
+    width: 825px;
+    height: 100px;
+    padding: 10px 8px;
+    margin: 25px 0px 20px 0px;
+} 
+
+.butt button{
+    border-radius: 50px;
+    padding: 15px 50px;
+    font-weight: 900;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(253, 70, 37);
+    color: white;
+    margin-left: 357px;
+    margin-bottom: 40px;
+}
+
+.butt button:hover {
+    background-color: rgb(255, 38, 0);
+}
+
+
+
+.flax7 {
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    font-size: 40px;
+    padding:40px 120px;
+    color: white;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.flax7 i {
+    margin-right: 20px;
+    font-size: 20px;
+}

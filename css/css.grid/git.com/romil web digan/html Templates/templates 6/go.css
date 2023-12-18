@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 820px;
+}
+
+ul{
+    margin-left: 70%;
+    margin-top: -53%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+}
+
+a:hover{
+    color: black;
+    transition: 2s;
+}
+
+h1{
+    color: white;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.H12{
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    font-size: 55px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align-last:center ;
+}
+
+button{
+    width: 10%;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 45%;
+    margin-top: 20px;
+    border: none;
+    color: rgb(14, 78, 117);
+    font-size: 15px;
+    margin-bottom: 25%;
+}
+
+
+button:hover{
+    background-color: dodgerblue;
+    color: white;
+    transition: 1s;
+}
+
+.h13{
+    text-align: center;
+    color: dodgerblue;
+}
+
+.hr1{
+    width: 2%;
+    height: 5px;
+    margin-left: 50%;
+    margin-top: 15px;
+    background-color: dodgerblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.p2{
+    color: black;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Read{
+    width: 10%;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 45%;
+    margin-top: 10%;
+    background-color: white;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.Read:hover{
+    background-color: dodgerblue;
+    color: white;
+    transition: 2s;
+}
+
+.box1{
+    width: 33%;
+    height: 300px;
+    margin-top: -20%;
+    background-color: dodgerblue;
+}
+
+.box2{
+    width: 33%;
+    height: 300px;
+    margin-top: -19.7%;
+    margin-left: 33%;
+    background-color: rgb(0, 0, 0);
+}
+
+.box3{
+    width: 34%;
+    height: 300px;
+    margin-top: -19.8%;
+    margin-left: 66%;
+    background-color:dodgerblue;
+}
+
+.left{
+    font-size: 35px;
+    margin-top: -17%;
+    margin-left: 13%;
+    position: absolute;
+    color: white;
+    display: block;
+}
+
+.h14{
+    margin-top: -12%;
+    margin-left: 150px;
+}
+
+.p3{
+    position: absolute;
+    margin-left: 4%;
+    margin-right: 73%;
+    margin-top: 30px;
+}
+
+.bullseye{
+    font-size: 35px;
+    margin-left: 48%;
+    margin-top: -7%;
+    position: absolute;
+    color: white;
+}
+
+.h15{
+    margin-left: 665px;
+    color: rgb(255, 255, 255);
+    margin-top: -50px;
+}
+
+.p4{
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 38px;
+}
+
+.eye{
+    margin-left: 1255px;
+    font-size: 35px;
+    margin-top: -6.2%;
+    position: absolute;
+    color: white;
+}
+
+.h16{
+    margin-top: -2%;
+    margin-left: 1210px;
+}
+
+.p5{
+    position: absolute;
+    margin-left: 75%;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.h17{
+    text-align: center;
+    color: dodgerblue;
+    margin-top: 15%;
+}
+
+.hr2{
+    width: 2%;
+    height: 5px;
+    margin-left: 50%;
+    margin-top: 15px;
+    background-color: dodgerblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.p6{
+    text-align: center;
+    color: gray;
+    margin-left: 28%;
+    margin-right: 20%;
+}
+
+.box4{
+    width: 20%;
+    height: 66px;
+   margin-left: 10%;
+    margin-top: 10px;
+    margin-top: 50px;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box5{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: -4.2%;
+    border: 2px solid dodgerblue;
+}
+
+.desktop{
+    margin-left: 11%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+.desktop:hover{
+    color: white;
+}
+.box5:hover{
+   background-color: black;
+}
+.box6{
+    width: 20%;
+    height: 66px;
+   margin-left: 39%;
+    margin-top: -50px;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box7{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 39%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.laptop{
+    margin-left: 39.8%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.laptop:hover{
+    color: white;
+}
+.box7:hover{
+   background-color: black;
+}
+.box8{
+    width: 20%;
+    height: 66px;
+   margin-left: 65%;
+    margin-top: -50px;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box9{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 65%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.gear{
+    margin-left: 66%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+
+.gear:hover{
+    color: white;
+}
+.box9:hover{
+   background-color: black;
+}
+
+.box10{
+    width: 20%;
+    height: 66px;
+   margin-left: 10%;
+    margin-top: 5%;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box11{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.gears{
+    margin-left: 11%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.gears:hover{
+    color: white;
+}
+.box11:hover{
+   background-color: black;
+}
+
+.box12{
+    width: 20%;
+    height: 66px;
+   margin-left: 39%;
+    margin-top: -3%;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box13{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 39%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.android{
+    margin-left: 39.9%;
+    font-size: 30px;
+    margin-top:-45px;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.android:hover{
+    color: white;
+}
+.box13:hover{
+   background-color: black;
+}
+
+
+.box14{
+    width: 20%;
+    height: 66px;
+   margin-left: 65%;
+    margin-top: -50px;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box15{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 65%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.display{
+    margin-left: 66%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.display:hover{
+    color: white;
+}
+.box15:hover{
+   background-color: black;
+}
+
+.box16{
+    width: 20%;
+    height: 66px;
+   margin-left: 10%;
+    margin-top: 5%;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box17{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.wordpress{
+    margin-left: 11%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.wordpress:hover{
+    color: white;
+}
+.box17:hover{
+   background-color: black;
+}
+
+.box18{
+    width: 20%;
+    height: 66px;
+   margin-left: 39%;
+    margin-top: -3%;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box19{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 39%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.gear1{
+    margin-left: 40.1%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.gear1:hover{
+    color: white;
+}
+.box19:hover{
+   background-color: black;
+}
+
+.box20{
+    width: 20%;
+    height: 66px;
+   margin-left: 65%;
+    margin-top: -50px;
+   border-radius: 30px;
+    background-color: rgb(214, 209, 209);
+}
+
+.box21{
+    width: 4%;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 65%;
+    margin-top: -4.3%;
+    border: 2px solid dodgerblue;
+}
+
+.phone{
+    margin-left: 66%;
+    font-size: 30px;
+    margin-top:-45px ;
+    position: absolute;
+    color: dodgerblue;
+}
+
+
+.phone:hover{
+    color: white;
+}
+.box21:hover{
+   background-color: black;
+}
+
+
+
+.p8{
+    color: dodgerblue;
+    margin-top: -2.5%;
+}
+
+.p9{
+    color: dodgerblue;
+    margin-top: -2.5%;
+    margin-left: 54%;
+}
+
+
+.p10{
+    color: dodgerblue;
+    margin-top: -40px;
+    margin-left: -56%;
+}
+
+.p11{
+    color: dodgerblue;
+    margin-top: -2.5%;
+}
+
+.p12{
+    color: dodgerblue;
+    margin-top: -2.5%;
+    margin-left: 54%;
+}
+
+.p13{
+    color: dodgerblue;
+    margin-top: -2.5%;
+    margin-left: -57%;
+}
+
+.p14{
+    color: dodgerblue;
+    margin-top: -2.5%;
+    margin-left: 10px;
+}
+
+.p15{
+    color: dodgerblue;
+    margin-top: -2.5%;
+    margin-left: 54%;
+    margin-bottom: 5%;
+}
+
+.box22{
+    width: 100%;
+    height: 40vh;
+    background-color: dodgerblue;
+}
+
+.box23{
+    width:6%;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: -15%;
+    margin-left: 10%;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.p7{
+    color: dodgerblue;
+    margin-left: -60%;
+    margin-top: -40px;
+}
+
+.days{
+    font-size: 40px;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 12%;
+    position: absolute;
+}
+
+.h18{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 10.2%;
+}
+
+.YEARS{
+    color: white;
+    margin-left: 5%;
+}
+
+.box24{
+    width:6%;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: -13.5%;
+    margin-left: 35%;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.check{
+    font-size: 40px;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 37%;
+    position: absolute;
+}
+
+
+.h19{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 34%;
+}
+
+.COMPLETED{
+    color: white;
+    margin-left: 30%;
+}
+
+.box25{
+    width:6%;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: -13.5%;
+    margin-left: 60%;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.users{
+    font-size: 40px;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 61.5%;
+    position: absolute;
+}
+
+
+.h20{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 59%;
+}
+
+.TOTAL{
+    color: white;
+    margin-left: 58.5%;
+}
+
+.box26{
+    width:6%;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: -13.5%;
+    margin-left: 85%;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.heart{
+    font-size: 40px;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 86.8%;
+    position: absolute;
+}
+
+
+.h21{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 85.5%;
+}
+
+.AWARD{
+    color: white;
+    margin-left: 85%;
+    margin-bottom: 5%;
+}
+
+.h23{
+    text-align: center;
+    color: dodgerblue;
+}
+
+.hr3{
+    width: 2%;
+    height: 5px;
+    margin-left: 50%;
+    margin-top: 15px;
+    background-color: dodgerblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.p16{
+    text-align: center;
+    color: gray;
+    margin-left: 28%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 3%;
+}
+
+.all{
+    margin-left: 35%;
+    color: dodgerblue;
+}
+
+.WEB{
+    color: dodgerblue;
+}
+
+.GAME{
+    color: dodgerblue;
+}
+
+.app{
+    color: dodgerblue;
+}
+
+.down{
+    margin-left: 35.5%;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -22px;
+    color: dodgerblue;
+}
+
+.jpg1{
+    height: 250px;
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.jpg2{
+    height: 250px;
+    width: 400px;
+    margin-top: 5%;
+    margin-left: -4px;
+}
+
+.jpg3{
+    height: 250px;
+    width: 400px;
+    margin-top: 5%;
+    margin-left: -4px;
+}
+
+.jpg4{
+    height: 250px;
+    width: 400px;
+    margin-top: -4px;
+    margin-left: 10%;
+}
+
+.jpg5{
+    height: 250px;
+    width: 400px;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.jpg6{
+    height: 250px;
+    width: 400px;
+    margin-top:-4px;
+    margin-left: -4px;
+}
+
+.flax7 {
+ width: 100%;
+ height: 100px;
+ margin-top: 20px;
+ color: white;
+ background-color: rgb(0, 0, 0);
+}
+
+.html{
+    margin-left: 10%;
+    margin-top: -50px;
+    color: white;
+}
+
+.by{
+    margin-left: 70%;
+    margin-top: -20px;
+    color: white;
+}
+
+.Codex{
+    margin-left:77%;
+    margin-top: -26px;
+    position: absolute;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.Codex:hover{
+    color: white;
+}
