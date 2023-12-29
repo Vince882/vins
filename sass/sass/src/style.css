@@ -1,8 +1,9 @@
 
 
 /*# sourceMappingURL=style.css.map */
-body {
-    background-color: lightblue;
-    color: darkblue;
-    font-size: 18px;
-  }              
+.box1{
+  width: 400px;
+  width: 200px;
+  border: 1px solid black;
+  color: red;
+}  
