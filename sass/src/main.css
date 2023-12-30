@@ -1,25 +1,17 @@
-/* Use the variables */
-.box1 {
-  height: 350px;
-  width: 200px;
- border: 2px solid black;
-  margin: 10px;
-  text-align: center;
+nav ul li a {
+  background-color: #ff4545;
 }
-img{
-  margin-left: 10px;
 
+nav {
+  background-color: orange;
 }
-button{
-  color: white;
-  background-color: black;
-  border-radius: 20px;
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
 }
-.box2{
-  height: 350px;
-  width: 200px;
- border: 2px solid rgb(255, 0, 81);
-  margin: 10px;
-  text-align: center;
-  background-color: rgb(255, 0, 81);
-}
+
+nav ul li {
+  margin: 0px 25px;
+}/*# sourceMappingURL=main.css.map */
