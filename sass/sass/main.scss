@@ -1,16 +1,29 @@
 @use 'sass-second';
 @use 'variables' as a;
 
+
 nav{
     background-color: a.$bg-5;
-}
+    }
 
 nav ul{
     display: a.$flex;
     list-style-type: none;
     padding: a.$p-4;
 }
-
+    
 nav ul li{
     margin:0px a.$m-5;
 }
+@each $a in main box box-1 box-2 box-3 {
+   .#{$a}{
+    border: 20px solid pink;
+    background-color: green;
+    height:250px;
+    width: 250px;
+    display: inline-block;
+margin-top: 0px;
+    
+   }
+}
+
