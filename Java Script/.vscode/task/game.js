@@ -1,18 +1,20 @@
 function guessGame() {
-    var number = Math.random() * 11 | 0,
-        guess,
-        text = 'Guess a number:';
-    do {
-        guess = prompt(text);
-        if (number < guess) {
-            text = "You've guessed too high!";
-        } else if (number > guess) {
-            text = "You've guessed too low!";
-        }
-    } while (guess != number);
-    document.write("Good Job!");
+    guess:
+            var number = Math.floor(Math.random() * 11);
+            document.write(number);
+            var guess;// = prompt("Guess a number: ");
+            var text = 'Guess a number:';
+            guess = prompt(text);
+            if (number == guess) {
+                document.write("Good Job!");
+                return true;
+            } else {
+            if (number < guess) {
+                text = "You've guessed too low!";
+            } else {
+                text = "You've guessed too high!";
+            }
+                goto guess;
+            }
 }
-guessGame();
-
-
-
+        guessGame();
