@@ -108,12 +108,12 @@ if (x > y && x > z) {
     }
 } 
 
-      // Q-6
-    // {
-    //   let a = -9;
-    //   let b = 3;
-    //   console.log(a*b);
-    // }
+      Q-6
+    {
+      let a = -9;
+      let b = 3;
+      console.log(a*b);
+    }
 
        {
           let a ="Value is"
@@ -121,38 +121,38 @@ if (x > y && x > z) {
 
           document.write(`"${a}  ${b}"`)
        }
-    // {
-    //   let a = 17;
-    //   let b = 5;
-    //   console.log(a%b);
-    // }
+    {
+      let a = 17;
+      let b = 5;
+      console.log(a%b);
+    }
 
-    // {
-    //   let a = 5;
-    //   let b = 17;
-    //   console.log(a%b);
-    // }
+    {
+      let a = 5;
+      let b = 17;
+      console.log(a%b);
+    }
 
-    // {
-    //   let a = 5;
-    //   let b = 10;
-    //   console.log(a/b);
-    // }
+    {
+      let a = 5;
+      let b = 10;
+      console.log(a/b);
+    }
 
-    // {
-    //   let a = 4;
-    //   let b = 4;
-    //   console.log(a==b);
-    // }
+    {
+      let a = 4;
+      let b = 4;
+      console.log(a==b);
+    }
 
-    // {
-    //   let a = 4;
-    //   let b = 5;
-    //   console.log(a!=b);
-    // }
+    {
+      let a = 4;
+      let b = 5;
+      console.log(a!=b);
+    }
 
-    // {
-    //   let a = 7;
-    //   let b = 8;
-    //   console.log(a<=b);
-    // }
+    {
+      let a = 7;
+      let b = 8;
+      console.log(a<=b);
+    }
