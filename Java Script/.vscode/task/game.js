@@ -15,7 +15,7 @@ function guessGame() {
             } else {
                 text = "You've guessed too high!";
             }
-                goto guess;
+               guess;
             }
 }
         guessGame();
