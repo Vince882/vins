@@ -12,16 +12,17 @@
 
 <script>
     function guessGame(){
-        number = Math.floor(Math.random()*11);
+        number = Math.floor(Math.SQRT2)
+        // number = Math.floor(Math.random()*1);
         document.write(number);
         var guess = prompt("Guess a number: ");
             do {
-                guess = prompt("Keep guessing       !");
+                guess = prompt("Keep guessing!");
                 if (number < guess) {
                     prompt("You've guessed too high!");
                 } else if (number > guess) {
                     prompt("You've guessed too low!");
-                } else document.write("Good Job!");
+                } else document.write ("hello java script");
             } while (guess != number);
     }
     </script>

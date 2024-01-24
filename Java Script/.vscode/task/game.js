@@ -1,7 +1,8 @@
 function guessGame() {
     guess:
             var number = Math.floor(Math.random() * 11);
-            document.write(number);
+            // document.write(number);
+            number = Math.floor(Math.SQRT2)
             var guess;// = prompt("Guess a number: ");
             var text = 'Guess a number:';
             guess = prompt(text);
@@ -19,8 +20,3 @@ function guessGame() {
 }
         guessGame();
 
-        let i = 0;
-do {
-  console.log(i);
-  i++;
-} while (i < 10);
