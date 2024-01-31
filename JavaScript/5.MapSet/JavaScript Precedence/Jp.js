@@ -6,24 +6,24 @@
 // ...	Spread
 
 {
-  // const numbers = [26,5,21,100];
-  // let maxValue = Math.max(...numbers);
-  // console.log(maxValue);
+  const numbers = [26,5,21,100];
+  let maxValue = Math.max(...numbers);
+  console.log(maxValue);
 }
 
 // =>	Arrow
 
 {
-  // let hello = "";
-  // hello = (val) => "Hello " + val;  
-  // console.log(hello);
+  let hello = "";
+  hello = (val) => "Hello " + val;  
+  console.log(hello);
 }
 
 // :	Colon Assignment
 
 {
-  // const size = {x: 5, y: 10, z: 1};
-  // console.log(size.x);
+  const size = {x: 5, y: 10, z: 1};
+  console.log(size.x);
 }
 
 /*

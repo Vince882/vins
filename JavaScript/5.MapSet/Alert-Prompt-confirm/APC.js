@@ -11,15 +11,15 @@
 */
 
 {
-    // window.alert("this is javascript");
-    // alert("Hello User");
+    window.alert("this is javascript");
+    alert("Hello User");
 }
 
 {
-    // let  vivek;
-    // vivek = false;
+    let  vivek;
+    vivek = false;
 
-    // alert(vivek ? "Nagative User" : "Positive User");
+    alert(vivek ? "Nagative User" : "Positive User");
 }
 
 // const Message = prompt();

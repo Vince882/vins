@@ -60,33 +60,33 @@
 /* Block-scope variables */
 
 {
-    // let x = "hello"
-    // let x = 'java'
-    // x = 'javascript'
-    // console.log(x);
+    let x = "hello"
+    let x = 'java'
+    x = 'javascript'
+    console.log(x);
 }
 
-// {let x = 'sun'}
+{let x = 'sun'}
 
-// {let z = 50}
+{let z = 50}
 
 
 
 
 /* Declaration const() */
 
-// const x = 20;
+const x = 20;
 
 
-// {
-//     const x = 20;
-//     console.log(x);
-// }
-// {
-//     const x = 50;
-// }
+{
+    const x = 20;
+    console.log(x);
+}
+{
+    const x = 50;
+}
 
-// console.log(x);
+console.log(x);
 
 
 
