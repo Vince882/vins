@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+        <title>Sum of Numbers</title>
+        <script src="../while  do-while  task/task-2.js"></script>
+     <script>
+      var numbers = prompt("Enter a  number 1-100");
+    
+      while (numbers!=null && (isNaN(parseInt(numbers)) || parseInt(numbers) >100 || parseInt(numbers) <1)) {
+          numbers = prompt("Try again.Enter a  number 1-100");
+      }
+      if (numbers !=null){
+            alert("Finally you entered a correct number");
+      }
+     
+      var sum = 0;
+      var numOfLoops = numbers;
+      var counter = 1;
+      do {
+        sum+=counter;
+        counter++;
+      } while (counter<=numOfLoops)
+      alert ("sum=" +sum);
+    
+     </script>
+    
+    </head>
+    <body>
+        <script>
+        document.write("<h1>Sum of Numbers</h1>");
+            document.write("The sum of numbers from 1 to = " + numbers +  "&nbsp;is = "  +
+                + sum + "<br><br>");
+        </script>
+    
+    </body>
+    </html>
