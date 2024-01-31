@@ -61,7 +61,7 @@
 
 {
     let x = "hello"
-    let x = 'java'
+    let y = 'java'
     x = 'javascript'
     console.log(x);
 }
