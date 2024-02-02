@@ -15,10 +15,17 @@ if (10 > 9 > 8) {
 
 console.log(x1);
 
-// // task-2
-// var bar = function foo () {};
-// console.log(bar === foo);
+// task-2
 
+
+var bar = function foo () {
+console.log(bar === foo);
+};
+
+// var foo = function foo() {
+//     console.log(bar === foo);  
+// };
+// foo();
 
 // task-3
 
